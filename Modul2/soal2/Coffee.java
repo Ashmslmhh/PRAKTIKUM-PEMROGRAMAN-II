@@ -1,13 +1,13 @@
 package praktikum2.soal2;
 
 public class Coffee {
-    public String name;
+    public String NameOfCoffee;
     public String size;
     public double price;
     private String buyer;
 
-    public void display() {
-        System.out.println("Nama Kopi: " + this.name);
+    public void info() {
+        System.out.println("Nama Kopi: " + this.NameOfCoffee);
         System.out.println("Ukuran: " + this.size);
         System.out.println("Harga: Rp. " + this.price);
     }
